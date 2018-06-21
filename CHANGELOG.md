@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.24.1-3 (2018/06/21)
+
+* Upgrade to Visual Studio Code 1.24.1
+
 ## 1.24.0-2 (2018/06/06)
 
 * Upgrade to Visual Studio Code 1.24.0
