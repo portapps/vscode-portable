@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.26.1-5 (2018/08/17)
+
+* Upgrade to Visual Studio Code 1.26.1
+
 ## 1.26.0-4 (2018/08/14)
 
 * Upgrade to Visual Studio Code 1.26.0
