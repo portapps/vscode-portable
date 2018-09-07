@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.27.1-7 (2018/09/07)
+
+* Upgrade to Visual Studio Code 1.27.1
+* Upgrade to Go 1.11
+* Use [go mod](https://golang.org/cmd/go/#hdr-Module_maintenance) instead of `dep`
+
 ## 1.27.0-6 (2018/09/06)
 
 * Upgrade to Visual Studio Code 1.27.0
