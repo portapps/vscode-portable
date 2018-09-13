@@ -16,4 +16,9 @@
   <!-- Targets -->
   <target name="release" depends="release.app" description="Release"/>
 
+  <target name="prepare">
+    <echo message="Adding code.cmd..."/>
+    <copy file="${res.path}\code.cmd" todir="${build.path}" overwrite="true"/>
+  </target>
+
 </project>
