@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.27.2-8 (2018/09/14)
+
+* Upgrade to Visual Studio Code 1.27.2
+* CLI available through `code.cmd` (Issue #1)
+
 ## 1.27.1-7 (2018/09/07)
 
 * Upgrade to Visual Studio Code 1.27.1
