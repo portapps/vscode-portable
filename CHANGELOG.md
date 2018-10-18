@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.28.2-11 (2018/10/18)
+
+* Upgrade to Visual Studio Code 1.28.2
+
 ## 1.28.1-10 (2018/10/12)
 
 * Upgrade to Visual Studio Code 1.28.1
