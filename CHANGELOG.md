@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.31.0-1 (2019/02/08)
+
+* Upgrade to Visual Studio Code 1.31.0
+* Switch to TravisCI
+
 ## 1.30.2-16 (2019/01/08)
 
 * Upgrade to Visual Studio Code 1.30.2
