@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.31.2-2 (2019/02/16)
+## 1.31.1-2 (2019/02/16)
 
 * Upgrade to Visual Studio Code 1.31.1
 
