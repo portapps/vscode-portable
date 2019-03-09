@@ -6,24 +6,31 @@ import (
 	"os"
 
 	. "github.com/portapps/portapps"
+	"github.com/portapps/portapps/pkg/utl"
+)
+
+var (
+	app *App
 )
 
 func init() {
-	Papp.ID = "vscode-portable"
-	Papp.Name = "Visual Studio Code"
-	Init()
+	var err error
+
+	// Init app
+	if app, err = New("vscode-portable", "Visual Studio Code"); err != nil {
+		Log.Fatal().Err(err).Msg("Cannot initialize application. See log file for more info.")
+	}
 }
 
 func main() {
-	Papp.AppPath = AppPathJoin("app")
-	Papp.DataPath = CreateFolder(AppPathJoin("data"))
-	Papp.Process = PathJoin(Papp.AppPath, "Code.exe")
-	Papp.Args = []string{"--log debug"}
-	Papp.WorkingDir = PathJoin(Papp.AppPath)
+	app.Process = utl.PathJoin(app.AppPath, "Code.exe")
+	app.Args = []string{
+		"--log debug",
+	}
 
-	OverrideEnv("VSCODE_APPDATA", PathJoin(Papp.DataPath, "appdata"))
-	OverrideEnv("VSCODE_LOGS", PathJoin(Papp.DataPath, "logs"))
-	OverrideEnv("VSCODE_EXTENSIONS", PathJoin(Papp.DataPath, "extensions"))
+	utl.OverrideEnv("VSCODE_APPDATA", utl.PathJoin(app.DataPath, "appdata"))
+	utl.OverrideEnv("VSCODE_LOGS", utl.PathJoin(app.DataPath, "logs"))
+	utl.OverrideEnv("VSCODE_EXTENSIONS", utl.PathJoin(app.DataPath, "extensions"))
 
-	Launch(os.Args[1:])
+	app.Launch(os.Args[1:])
 }
