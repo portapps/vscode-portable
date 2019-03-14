@@ -23,6 +23,7 @@ func init() {
 }
 
 func main() {
+	utl.CreateFolder(app.DataPath)
 	app.Process = utl.PathJoin(app.AppPath, "Code.exe")
 	app.Args = []string{
 		"--log debug",
