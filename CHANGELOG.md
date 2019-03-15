@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.32.2-4 (2019/03/14)
+
+* Upgrade to Visual Studio Code 1.32.2
+
+## 1.32.1-3 (2019/03/09)
+
+* Upgrade to Visual Studio Code 1.32.1
+* Portapps 1.20.2
+
 ## 1.31.1-2 (2019/02/16)
 
 * Upgrade to Visual Studio Code 1.31.1
