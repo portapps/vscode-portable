@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.32.3-5 (2019/03/15)
+
+* Upgrade to Visual Studio Code 1.32.3
+
 ## 1.32.2-4 (2019/03/14)
 
 * Upgrade to Visual Studio Code 1.32.2
