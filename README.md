@@ -12,13 +12,15 @@
 
 ## Notice of Non-Affiliation and Disclaimer
 
-Portapps is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Visual Studio Code, or any of its subsidiaries or its affiliates. The official Visual Studio Code website can be found at https://code.visualstudio.com.
+Portapps is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Visual Studio Code™, or any of its subsidiaries or its affiliates.
 
-The name Visual Studio Code® as well as related names, marks, emblems and images are registered trademarks of their respective owners.
+The official Visual Studio Code™ website can be found at https://code.visualstudio.com.
+
+The name Visual Studio Code™ as well as related names, marks, emblems and images are registered trademarks of their respective owners.
 
 ## About
 
-Visual Studio Code portable app made with 🚀 [Portapps](https://portapps.io).<br />
+Visual Studio Code™ portable app made with 🚀 [Portapps](https://portapps.io).<br />
 Documentation and downloads can be found on https://portapps.io/app/vscode-portable/
 
 ## How can I help ?
