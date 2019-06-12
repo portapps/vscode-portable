@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.35.1-21 (2019/06/12)
+
+* Visual Studio Code 1.35.1
+
 ## 1.35.0-20 (2019/06/05)
 
 * Visual Studio Code 1.35.0
