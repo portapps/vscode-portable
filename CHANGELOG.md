@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.37.0-25 (2019/08/09)
+
+* Visual Studio Code 1.37.0
+* Portapps 1.25.0
+
 ## 1.36.1-23 (2019/07/11)
 
 * Visual Studio Code 1.36.1
