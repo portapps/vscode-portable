@@ -11,7 +11,6 @@
   name: ":bug: bug"
   color: "b60205"
   description: ""
-  from_name: "bug"
 - # dependencies
   name: ":game_die: dependencies"
   color: "0366d6"
