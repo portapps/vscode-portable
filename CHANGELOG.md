@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.41.0-24 (2019/12/15)
+
+* Visual Studio Code 1.41.0
+* Add cleanup config
+* Portapps 1.31.0
+
 ## 1.40.2-23 (2019/11/28)
 
 * Visual Studio Code 1.40.2
