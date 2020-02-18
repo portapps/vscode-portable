@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.42.1-27 (2020/02/18)
+
+* Visual Studio Code 1.42.1
+
 ## 1.42.0-26 (2020/02/09)
 
 * Visual Studio Code 1.42.0
