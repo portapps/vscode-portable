@@ -1,6 +1,11 @@
 # Changelog
 
-## 1.44.2-31 (2020/05/25)
+## 1.45.0-32 (2020/05/12)
+
+* Visual Studio Code 1.45.0
+* Portapps 2.2.4
+
+## 1.44.2-31 (2020/04/25)
 
 * Visual Studio Code 1.44.2
 * Portapps 2.2.0
