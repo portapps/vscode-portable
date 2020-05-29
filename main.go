@@ -54,5 +54,6 @@ func main() {
 	utl.OverrideEnv("VSCODE_LOGS", utl.PathJoin(app.DataPath, "logs"))
 	utl.OverrideEnv("VSCODE_EXTENSIONS", utl.PathJoin(app.DataPath, "extensions"))
 
+	defer app.Close()
 	app.Launch(os.Args[1:])
 }
