@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.46.1-34 (2020/07/01)
+
+* Visual Studio Code 1.46.1
+
 ## 1.45.1-33 (2020/06/02)
 
 * Visual Studio Code 1.45.1
