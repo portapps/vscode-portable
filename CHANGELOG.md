@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.51.1-40 (2020/11/13)
+
+* Visual Studio Code 1.51.1
+
 ## 1.49.3-39 (2020/10/05)
 
 * Visual Studio Code 1.49.3
