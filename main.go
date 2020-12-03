@@ -6,9 +6,9 @@ import (
 	"os"
 	"path"
 
-	"github.com/portapps/portapps/v2"
-	"github.com/portapps/portapps/v2/pkg/log"
-	"github.com/portapps/portapps/v2/pkg/utl"
+	"github.com/portapps/portapps/v3"
+	"github.com/portapps/portapps/v3/pkg/log"
+	"github.com/portapps/portapps/v3/pkg/utl"
 )
 
 type config struct {
@@ -50,9 +50,9 @@ func main() {
 		}()
 	}
 
-	utl.OverrideEnv("VSCODE_APPDATA", utl.PathJoin(app.DataPath, "appdata"))
-	utl.OverrideEnv("VSCODE_LOGS", utl.PathJoin(app.DataPath, "logs"))
-	utl.OverrideEnv("VSCODE_EXTENSIONS", utl.PathJoin(app.DataPath, "extensions"))
+	os.Setenv("VSCODE_APPDATA", utl.PathJoin(app.DataPath, "appdata"))
+	os.Setenv("VSCODE_LOGS", utl.PathJoin(app.DataPath, "logs"))
+	os.Setenv("VSCODE_EXTENSIONS", utl.PathJoin(app.DataPath, "extensions"))
 
 	defer app.Close()
 	app.Launch(os.Args[1:])
