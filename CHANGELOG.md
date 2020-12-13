@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.52.0-41 (2020/12/13)
+
+* Visual Studio Code 1.52.0
+* Disable vscode logs if global log disable enabled
+* Portapps 3.1.0
+
 ## 1.51.1-40 (2020/11/13)
 
 * Visual Studio Code 1.51.1
