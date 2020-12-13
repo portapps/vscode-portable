@@ -51,7 +51,9 @@ func main() {
 	}
 
 	os.Setenv("VSCODE_APPDATA", utl.PathJoin(app.DataPath, "appdata"))
-	os.Setenv("VSCODE_LOGS", utl.PathJoin(app.DataPath, "logs"))
+	if !app.Config().Common.DisableLog {
+		os.Setenv("VSCODE_LOGS", utl.PathJoin(app.DataPath, "logs"))
+	}
 	os.Setenv("VSCODE_EXTENSIONS", utl.PathJoin(app.DataPath, "extensions"))
 
 	defer app.Close()
