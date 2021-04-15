@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.55.2-43 (2021/04/15)
+
+* Visual Studio Code 1.55.2
+* Portapps 3.3.0
+* No more win32 release
+
 ## 1.53.2-42 (2021/02/15)
 
 * Visual Studio Code 1.53.2
