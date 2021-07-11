@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.58.0-44 (2021/07/11)
+
+* Visual Studio Code 1.58.0
+
 ## 1.55.2-43 (2021/04/15)
 
 * Visual Studio Code 1.55.2
