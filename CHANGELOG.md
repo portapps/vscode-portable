@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.73.1-47 (2022/11/20)
+
+* Visual Studio Code 1.73.1
+* Portapps 3.6.0
+
 ## 1.67.2-46 (2022/05/22)
 
 * Visual Studio Code 1.67.2
