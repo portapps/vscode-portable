@@ -2,4 +2,4 @@ module github.com/portapps/vscode-portable
 
 go 1.16
 
-require github.com/portapps/portapps/v3 v3.6.0
+require github.com/portapps/portapps/v3 v3.7.0
