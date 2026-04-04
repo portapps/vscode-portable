@@ -1,10 +1,10 @@
 //go:generate go install -v github.com/josephspurrier/goversioninfo/cmd/goversioninfo
-//go:generate goversioninfo -icon=res/papp.ico -manifest=res/papp.manifest
 package main
 
 import (
 	"os"
 	"path"
+	"path/filepath"
 
 	"github.com/portapps/portapps/v3"
 	"github.com/portapps/portapps/v3/pkg/log"
@@ -36,7 +36,7 @@ func init() {
 
 func main() {
 	utl.CreateFolder(app.DataPath)
-	app.Process = utl.PathJoin(app.AppPath, "Code.exe")
+	app.Process = filepath.Join(app.AppPath, "Code.exe")
 	app.Args = []string{
 		"--log debug",
 	}
@@ -50,11 +50,11 @@ func main() {
 		}()
 	}
 
-	os.Setenv("VSCODE_APPDATA", utl.PathJoin(app.DataPath, "appdata"))
+	os.Setenv("VSCODE_APPDATA", filepath.Join(app.DataPath, "appdata"))
 	if !app.Config().Common.DisableLog {
-		os.Setenv("VSCODE_LOGS", utl.PathJoin(app.DataPath, "logs"))
+		os.Setenv("VSCODE_LOGS", filepath.Join(app.DataPath, "logs"))
 	}
-	os.Setenv("VSCODE_EXTENSIONS", utl.PathJoin(app.DataPath, "extensions"))
+	os.Setenv("VSCODE_EXTENSIONS", filepath.Join(app.DataPath, "extensions"))
 
 	defer app.Close()
 	app.Launch(os.Args[1:])
